@@ -178,7 +178,7 @@ img {max-width: 100%;}
 	padding:5px;
 }
 .heading h2::first-letter {
-	color:rgb(3, 134, 221) ;
+	color:#108f41 ;
 }
 .heading h3 {
 	font-size:16px;
@@ -209,7 +209,7 @@ img {max-width: 100%;}
 .headfoot ul li {
 	display:inline-block;
 	text-align:center;
-	background:rgb(3, 134, 221);
+	background:#108f41;
 	color:#ffffff;
 	line-height:45px;
 	width:75px !important;
@@ -385,13 +385,13 @@ img#site-title {
 	margin-bottom:50px;
 }
 
-.skills {
+/* .skills {
 	box-shadow:inset 0 0 0 16px #fff,inset 0 0 0 17px #eee,inset 0 0 0 18px #fff,inset 0 0 0 19px #eee,inset 0 0 0 20px #fff,inset 0 0 0 21px #eee,0 4px 20px rgba(0,0,0,0.1);
 	-webkit-transform:translateZ(0px);
 	transform:translateZ(0px);
 	opacity:1;
 	pointer-events:auto;
-}
+} */
 .skills h5 {
 	margin:0;
 	font-size:14px;
@@ -420,7 +420,7 @@ img#site-title {
 	margin:0 0 20px 0;
 	font-size:19px;
 	padding-bottom:10px;
-	color:rgb(3, 134, 221) ;
+	color:#108f41 ;
 	border-bottom: 4px double #eee;
 }
 
@@ -809,7 +809,8 @@ textarea.contact {
 	font-size:16px;
 	font-weight:400;
 	text-align:center;
-		margin:0px;
+	margin-bottom:10px;
+	
 	border:none !important;
 	border-radius:3px;
 }
@@ -839,10 +840,11 @@ textarea.contact {
 }
 /* --- Footer --- */
 .footer {
-	background:rgb(3, 134, 221) ;
+	background:#108f41 ;
 	/* margin-top:120px; */
 	/* position:fixed; */
 	/* margin-right:-15px; */
+	padding-top: 10px;
 	width:100%;
 }
 .footer .container {
